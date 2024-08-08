@@ -1,4 +1,5 @@
 import Event from "../Event/Event";
+import Category from "../Category/Category";
 import "./Body.css";
 import image1 from "../../assets/chevre-1.jpg";
 import image2 from "../../assets/chevre-2.jpg";
@@ -11,7 +12,12 @@ function Body() {
 
   return (
     <div className="body-event">
+      <Category title="Nouveautés" />
       <Event images={images} />
+      <Category title="L'arche du Rougier" />
+      <Category title="A propos de nous" />
+      <Category title="Contact" />
+      <Category title="Tarifs" />
     </div>
   );
 }

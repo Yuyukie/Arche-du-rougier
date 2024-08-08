@@ -1,8 +1,18 @@
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: brown;
+  background-color: rgb(199, 48, 48);
   width: 100%;
-  margin: 0 10 0 10;
-  padding: 10px 25px;
+  padding: 10px 45px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: rgb(35, 90, 209);
+  margin: 5px;
 }

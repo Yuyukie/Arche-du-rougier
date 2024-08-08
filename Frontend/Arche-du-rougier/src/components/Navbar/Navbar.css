@@ -1,0 +1,17 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.nav-bar-button {
+  background-color: rgb(31, 156, 187);
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.nav-bar-button:hover {
+  background-color: white;
+}
