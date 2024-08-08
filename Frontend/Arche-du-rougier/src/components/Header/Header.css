@@ -1,18 +1,31 @@
+/* Header.css */
 .header {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(199, 48, 48);
+  position: relative; /* Conteneur parent avec position relative */
+  width: 100%; /* Assurer que la largeur est de 100% pour couvrir l'écran */
+}
+
+.banner {
   width: 100%;
-  padding: 10px 45px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70px;
-  height: 70px;
-  border-radius: 50px;
-  background-color: rgb(35, 90, 209);
-  margin: 5px;
+  position: absolute;
+  top: 1.5rem;
+  left: 16rem;
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  border-radius: 200px;
+  font-size: 24px; /* Ajuster la taille de la police selon vos besoins */
+  z-index: 2; /* Assurer que le logo est au-dessus de l'image */
+}
+
+.title-header {
+  position: absolute;
+  top: 10rem;
+  right: 30rem;
+  font-size: 40px;
+  color: white;
 }

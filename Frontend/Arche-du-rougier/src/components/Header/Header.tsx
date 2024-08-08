@@ -1,10 +1,14 @@
 import Navbar from "../Navbar/Navbar";
 import "./Header.css";
+import banner from "../../assets/banner.jpg";
 
 function Header() {
   return (
     <div className="header">
-      <div className="logo">Logo</div>
+      <img src={banner} alt="Photo rougier de camares" className="banner" />
+      <div className="logo"></div>
+      <p className="title-header">L'ARCHE DU ROUGIER</p>
+
       <Navbar />
     </div>
   );

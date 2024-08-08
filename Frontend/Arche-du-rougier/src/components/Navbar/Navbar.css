@@ -1,17 +1,22 @@
-.nav-bar {
+.nav {
+  width: 100%;
+  margin-top: -4px;
   display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-right: 10px;
+  justify-content: center;
 }
 
-.nav-bar-button {
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 70%;
   background-color: rgb(31, 156, 187);
   padding: 10px;
   border-radius: 50px;
   box-shadow: 5px 5px 10px gray;
+  font-size: 30px;
 }
-
 .nav-bar-button:hover {
-  background-color: white;
+  color: white;
+  cursor: pointer;
 }
