@@ -4,15 +4,21 @@ import "./Section.css";
 import Category from "../Category/Category";
 
 interface SectionProps {
+  id: string;
   title: string;
   image: string;
   reverse?: boolean; // Ajouter une prop pour inverser l'ordre
 }
 
-const Section: React.FC<SectionProps> = ({ title, image, reverse = false }) => {
+const Section: React.FC<SectionProps> = ({
+  id,
+  title,
+  image,
+  reverse = false,
+}) => {
   return (
     <div className={`section ${reverse ? "reverse" : ""}`}>
-      <Category title={title} image={image} />
+      <Category id={id} title={title} image={image} />
       <div className="description">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, sequi
         ipsum? Vitae cumque at odit voluptate, vel laudantium nemo cupiditate

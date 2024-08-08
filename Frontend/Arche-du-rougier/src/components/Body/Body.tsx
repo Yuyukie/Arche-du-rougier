@@ -17,12 +17,26 @@ function Body() {
 
   return (
     <div className="body-event">
-      <Category title="Événements au sein de l'arche" image={undefined} />
+      <Category
+        id="event"
+        title="Événements au sein de l'arche"
+        image={undefined}
+      />
       <Event images={images} />
-      <Section title="Arche du Rougier" image={image6} />
-      <Section title="A propos de nous" image={image7} reverse={true} />
-      <Section title="Tarifs" image={image8} />
-      <Section title="Nous retrouver" image={image9} reverse={true} />
+      <Section id="arche" title="Arche du Rougier" image={image6} />
+      <Section
+        id="apropos"
+        title="A propos de nous"
+        image={image7}
+        reverse={true}
+      />
+      <Section id="tarifs" title="Tarifs" image={image8} />
+      <Section
+        id="nous-retrouver"
+        title="Nous retrouver"
+        image={image9}
+        reverse={true}
+      />
     </div>
   );
 }

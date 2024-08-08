@@ -4,13 +4,21 @@ function Navbar() {
   return (
     <div className="nav">
       <div className="nav-bar">
-        <div className="nav-bar-button">Acceuil</div>
-        <div className="nav-bar-button">Nouveaute</div>
-        <div className="nav-bar-button">L'arche du rougier</div>
-        <div className="nav-bar-button">A propos de nous</div>
-        <div className="nav-bar-button">Tarifs</div>
-        <div className="nav-bar-button">Nous retrouver</div>
-        <div className="nav-bar-button">contact</div>
+        <a href="#event" className="nav-bar-button">
+          Nouveautés
+        </a>
+        <a href="#arche" className="nav-bar-button">
+          L'arche du Rougier
+        </a>
+        <a href="#apropos" className="nav-bar-button">
+          À propos de nous
+        </a>
+        <a href="#tarifs" className="nav-bar-button">
+          Tarifs
+        </a>
+        <a href="#nous-retrouver" className="nav-bar-button">
+          Nous retrouver
+        </a>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   padding: 0px 15px 15px 15px;
 }
 
@@ -20,8 +20,8 @@
 
 .description {
   width: 60%;
-  margin-right: 20px; /* Default margin */
-  padding: 20px;
+  margin: 20px;
+  padding-top: 80px;
   font-size: 24px;
 }
 
